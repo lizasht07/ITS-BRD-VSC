@@ -1,0 +1,22 @@
+build-idx:
+  generated-by: csolution version 2.15.1+p3-gf46d68bf
+  target: STM32F429I-DISC1
+  cdefault: ${CMSIS_COMPILER_ROOT}/cdefault.yml
+  csolution: Blinky.csolution.yml
+  cbuild-run: out/Blinky+STM32F429I-DISC1.cbuild-run.yml
+  tmpdir: tmp/STM32F429I-DISC1/default
+  cprojects:
+    - cproject: Blinky.cproject.yml
+  cbuilds:
+    - cbuild: out/Blinky/STM32F429I-DISC1/Debug/Blinky.Debug+STM32F429I-DISC1.cbuild.yml
+      project: Blinky
+      configuration: .Debug+STM32F429I-DISC1
+      clayers:
+        - clayer: STM32CubeMX/STM32F429I-DISC1/Blinky.cgen.yml
+      messages:
+        warnings:
+          - "update suggested for file 'C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/RTE/CMSIS/RTX_Config.h' from component 'CMSIS:RTOS2:Keil RTX5&Source'.\nMerge content from update file, rename update file to base file and remove previous base file"
+        info:
+          - Blinky.cbuild-pack.yml - file is already up-to-date
+          - Blinky+STM32F429I-DISC1.cbuild-run.yml - file generated successfully
+          - Blinky.Debug+STM32F429I-DISC1.cbuild.yml - file generated successfully

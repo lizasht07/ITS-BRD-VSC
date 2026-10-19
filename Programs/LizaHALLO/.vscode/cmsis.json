@@ -1,0 +1,9 @@
+{
+    "targetSet": {
+        "LizaHALLO": {
+            "activeTargetType": "ITSboard"
+        }
+    },
+    "activeSolution": "../LizaHALLO.csolution.yml",
+    "activeTarget": "ITSboard"
+}

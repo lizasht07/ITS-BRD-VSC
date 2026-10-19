@@ -1,0 +1,13 @@
+# ninja log v7
+2	87	8140439176105124	Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-mkdir	cc1ef4ea32632388
+2	87	8140439176105124	C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-mkdir	cc1ef4ea32632388
+88	158	8140439176820340	Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-download	975cf8822553a1d9
+88	158	8140439176820340	C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-download	975cf8822553a1d9
+158	240	8140439177616965	Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-update	4398671ac1e026f3
+158	240	8140439177616965	C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-update	4398671ac1e026f3
+240	318	8140439178426143	Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-patch	11e1c181d52ae79f
+240	318	8140439178426143	C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-patch	11e1c181d52ae79f
+318	10186	8140439277109357	Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-configure	b85c189047d0cf14
+318	10186	8140439277109357	C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-configure	b85c189047d0cf14
+10186	10371	8140439277143107	Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-database	5f45a6efe7fd234f
+10186	10371	8140439277143107	C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-database	5f45a6efe7fd234f

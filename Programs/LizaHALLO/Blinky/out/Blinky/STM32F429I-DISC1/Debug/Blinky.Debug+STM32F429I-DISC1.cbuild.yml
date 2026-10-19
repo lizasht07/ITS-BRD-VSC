@@ -1,0 +1,571 @@
+build:
+  generated-by: csolution version 2.15.1+p3-gf46d68bf
+  solution: ../../../../Blinky.csolution.yml
+  project: ../../../../Blinky.cproject.yml
+  context: Blinky.Debug+STM32F429I-DISC1
+  compiler: AC6
+  board: STMicroelectronics::STM32F429I-DISC1:Rev.C
+  board-pack: Keil::STM32F429I-DISC1_BSP@1.1.0
+  board-books:
+    - name: https://www.st.com/en/evaluation-tools/32f429idiscovery.html
+      title: STM32F429I-DISC1 Board
+      category: overview
+    - name: https://www.st.com/resource/en/data_brief/32f429idiscovery.pdf
+      title: Data Brief
+      category: overview
+    - name: https://www.st.com/resource/en/user_manual/um1670-discovery-kit-with-stm32f429zi-mcu-stmicroelectronics.pdf
+      title: User Manual
+      category: manual
+    - name: https://www.st.com/resource/en/schematic_pack/mb1075-f429i-c01_schematic.pdf
+      title: Schematics
+      category: schematic
+    - name: ${CMSIS_PACK_ROOT}/Keil/STM32F429I-DISC1_BSP/1.1.0/Documents/README.md
+      title: Guide
+      category: other
+  device: STMicroelectronics::STM32F429ZITx
+  device-pack: Keil::STM32F4xx_DFP@3.1.1
+  device-books:
+    - name: https://www.st.com/resource/en/reference_manual/rm0090-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf
+      title: STM32F405/415 STM32F407/417 STM32F427/437 STM32F429/439 Reference Manual
+    - name: https://www.st.com/resource/en/datasheet/stm32f427vg.pdf.pdf
+      title: STM32F427/429 Datasheet
+    - name: https://www.st.com/resource/en/user_manual/um1725-description-of-stm32f4-hal-and-lowlayer-drivers-stmicroelectronics.pdf
+      title: STM32F4xx HAL Drivers
+    - name: https://developer.arm.com/documentation/dui0553/latest
+      title: Cortex-M4 Generic User Guide
+  dbgconf:
+    - file: ../../../../.cmsis/Blinky+STM32F429I-DISC1.dbgconf
+      version: 1.0.1
+  processor:
+    dsp: on
+    endian: little
+    fpu: sp
+    core: Cortex-M4
+  packs:
+    - pack: ARM::CMSIS-Compiler@2.3.0
+      path: ${CMSIS_PACK_ROOT}/ARM/CMSIS-Compiler/2.3.0
+    - pack: ARM::CMSIS-Driver_STM32@1.4.0
+      path: ${CMSIS_PACK_ROOT}/ARM/CMSIS-Driver_STM32/1.4.0
+    - pack: ARM::CMSIS-RTX@5.9.1
+      path: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1
+    - pack: ARM::CMSIS@6.4.0
+      path: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0
+    - pack: Keil::STM32F429I-DISC1_BSP@1.1.0
+      path: ${CMSIS_PACK_ROOT}/Keil/STM32F429I-DISC1_BSP/1.1.0
+    - pack: Keil::STM32F4xx_DFP@3.1.1
+      path: ${CMSIS_PACK_ROOT}/Keil/STM32F4xx_DFP/3.1.1
+  optimize: debug
+  debug: on
+  misc:
+    ASM:
+      - -gdwarf-5
+      - -masm=auto
+    C:
+      - -gdwarf-5
+      - -std=gnu11
+      - -Wno-macro-redefined
+      - -Wno-pragma-pack
+      - -Wno-parentheses-equality
+      - -Wno-license-management
+    CPP:
+      - -gdwarf-5
+      - -Wno-macro-redefined
+      - -Wno-pragma-pack
+      - -Wno-parentheses-equality
+      - -Wno-license-management
+    Link:
+      - --entry=Reset_Handler
+      - --info=summarysizes
+      - --summary_stderr
+      - --diag_suppress=L6314W
+  define:
+    - OS_IDLE_THREAD_NAME: \"Idle\"
+    - OS_TIMER_THREAD_NAME: \"Timer\"
+    - USE_HAL_DRIVER
+    - STM32F429xx
+    - STM32F429xx
+    - _RTE_
+  define-asm:
+    - STM32F429xx
+    - _RTE_
+  add-path:
+    - ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc
+    - ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+    - ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+    - ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Inc
+    - ../../../../STM32CubeMX/STM32F429I-DISC1/MX_Device
+    - ../../../../RTE/CMSIS
+    - ../../../../RTE/_Debug_STM32F429I-DISC1
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS-Compiler/2.3.0/include
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS-Driver_STM32/1.4.0/Drivers
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Include
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Core/Include
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Driver/Include
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Driver/VIO/Include
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/RTOS2/Include
+  add-path-asm:
+    - ../../../../RTE/CMSIS
+    - ../../../../RTE/_Debug_STM32F429I-DISC1
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS-Compiler/2.3.0/include
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS-Driver_STM32/1.4.0/Drivers
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Include
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Core/Include
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Driver/Include
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Driver/VIO/Include
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/RTOS2/Include
+  output-dirs:
+    intdir: ../../../../tmp
+    outdir: .
+    rtedir: ../../../../RTE
+  output:
+    - type: elf
+      file: Blinky.axf
+    - type: hex
+      file: Blinky.hex
+    - type: map
+      file: Blinky.axf.map
+    - type: comp-db
+      file: compile_commands.json
+    - type: comp-db
+      file: compile_macros_c.h
+    - type: comp-db
+      file: compile_macros_cxx.h
+  components:
+    - component: ARM::CMSIS-Compiler:CORE@1.2.1
+      condition: ARMCC CortexDevice
+      from-pack: ARM::CMSIS-Compiler@2.3.0
+      selected-by: CMSIS-Compiler:CORE
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-Compiler/2.3.0/source/core/armcc/retarget_io.c
+          category: sourceC
+          version: 1.2.1
+    - component: ARM::CMSIS-Compiler:STDERR:Custom@1.1.0
+      condition: CORE
+      from-pack: ARM::CMSIS-Compiler@2.3.0
+      selected-by: CMSIS-Compiler:STDERR:Custom
+      implements: CMSIS-Compiler:STDERR@1.1.0
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-Compiler/2.3.0/template/stdio/stderr_user.c
+          category: sourceC
+          attr: template
+          version: 1.1.0
+          select: STDERR User Template
+    - component: ARM::CMSIS-Compiler:STDIN:Custom@1.1.0
+      condition: CORE
+      from-pack: ARM::CMSIS-Compiler@2.3.0
+      selected-by: CMSIS-Compiler:STDIN:Custom
+      implements: CMSIS-Compiler:STDIN@1.1.0
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-Compiler/2.3.0/template/stdio/stdin_user.c
+          category: sourceC
+          attr: template
+          version: 1.1.0
+          select: STDIN User Template
+    - component: ARM::CMSIS-Compiler:STDOUT:Custom@1.1.0
+      condition: CORE
+      from-pack: ARM::CMSIS-Compiler@2.3.0
+      selected-by: CMSIS-Compiler:STDOUT:Custom
+      implements: CMSIS-Compiler:STDOUT@1.1.0
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-Compiler/2.3.0/template/stdio/stdout_user.c
+          category: sourceC
+          attr: template
+          version: 1.1.0
+          select: STDOUT User Template
+    - component: ARM::CMSIS:CORE@6.4.0
+      condition: ARMv6_7_8-M Device
+      from-pack: ARM::CMSIS@6.4.0
+      selected-by: CMSIS:CORE
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Core/Include
+          category: include
+          version: 6.4.0
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Core/Include/tz_context.h
+          category: header
+          version: 6.4.0
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Core/Template/ARMv8-M/main_s.c
+          category: sourceC
+          attr: template
+          version: 1.1.1
+          select: Secure mode 'main' module for ARMv8-M
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Core/Template/ARMv8-M/tz_context.c
+          category: sourceC
+          attr: template
+          version: 1.1.1
+          select: RTOS Context Management (TrustZone for ARMv8-M)
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Documentation/html/Core/index.html
+          category: doc
+          version: 6.4.0
+    - component: ARM::CMSIS:OS Tick:SysTick@1.0.5
+      condition: OS Tick SysTick
+      from-pack: ARM::CMSIS@6.4.0
+      selected-by: CMSIS:OS Tick:SysTick
+      implements: CMSIS:OS Tick@1.0.1
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/RTOS2/Source/os_systick.c
+          category: sourceC
+          version: 1.0.5
+    - component: ARM::CMSIS:RTOS2:Keil RTX5&Source@5.9.1
+      condition: RTX5
+      from-pack: ARM::CMSIS-RTX@5.9.1
+      selected-by: CMSIS:RTOS2:Keil RTX5&Source
+      implements: CMSIS:RTOS2@2.3.0
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Documentation/index.html
+          category: doc
+          version: 5.9.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Include/rtx_os.h
+          category: header
+          version: 5.9.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/RTX5.scvd
+          category: other
+          version: 5.9.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Source/GCC/irq_armv7m.S
+          category: source
+          version: 5.9.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Source/rtx_delay.c
+          category: source
+          version: 5.9.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Source/rtx_evflags.c
+          category: source
+          version: 5.9.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Source/rtx_evr.c
+          category: source
+          version: 5.9.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Source/rtx_kernel.c
+          category: source
+          version: 5.9.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Source/rtx_lib.c
+          category: source
+          version: 5.9.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Source/rtx_memory.c
+          category: source
+          version: 5.9.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Source/rtx_mempool.c
+          category: source
+          version: 5.9.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Source/rtx_msgqueue.c
+          category: source
+          version: 5.9.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Source/rtx_mutex.c
+          category: source
+          version: 5.9.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Source/rtx_semaphore.c
+          category: source
+          version: 5.9.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Source/rtx_system.c
+          category: source
+          version: 5.9.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Source/rtx_thread.c
+          category: source
+          version: 5.9.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Source/rtx_timer.c
+          category: source
+          version: 5.9.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Template/Events.c
+          category: source
+          attr: template
+          version: 2.0.0
+          select: RTX Events
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Template/MemPool.c
+          category: source
+          attr: template
+          version: 2.0.0
+          select: RTX Memory Pool
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Template/MsgQueue.c
+          category: source
+          attr: template
+          version: 2.0.0
+          select: RTX Message Queue
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Template/Mutex.c
+          category: source
+          attr: template
+          version: 2.0.0
+          select: RTX Mutex
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Template/Semaphore.c
+          category: source
+          attr: template
+          version: 2.0.0
+          select: RTX Semaphore
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Template/Thread.c
+          category: source
+          attr: template
+          version: 2.0.0
+          select: RTX Thread
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Template/Timer.c
+          category: source
+          attr: template
+          version: 2.0.1
+          select: RTX Timer
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Template/main.c
+          category: source
+          attr: template
+          version: 2.1.0
+          select: RTX 'main' function
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-RTX/5.9.1/Template/svc_user.c
+          category: source
+          attr: template
+          version: 1.0.0
+          select: RTX SVC User Table
+        - file: ../../../../RTE/CMSIS/RTX_Config.c
+          category: source
+          attr: config
+          version: 5.2.0
+        - file: ../../../../RTE/CMSIS/RTX_Config.h
+          category: header
+          attr: config
+          version: 5.6.1
+          base: ../../../../RTE/CMSIS/RTX_Config.h.base@5.6.0
+          update: ../../../../RTE/CMSIS/RTX_Config.h.update@5.6.1
+          status: update suggested
+    - component: Keil::CMSIS Driver:GPIO@1.2.0
+      condition: CMSIS Driver requirements
+      from-pack: ARM::CMSIS-Driver_STM32@1.4.0
+      selected-by: CMSIS Driver:GPIO
+      implements: CMSIS Driver:GPIO@1.0.0
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-Driver_STM32/1.4.0/Documentation/html/gpio_stm32.html
+          category: doc
+          version: 1.2.0
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-Driver_STM32/1.4.0/Drivers/GPIO_STM32.c
+          category: source
+          version: 1.2.0
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-Driver_STM32/1.4.0/Drivers/GPIO_STM32.h
+          category: header
+          version: 1.2.0
+    - component: Keil::CMSIS Driver:USART@3.0.0
+      condition: CMSIS Driver requirements
+      from-pack: ARM::CMSIS-Driver_STM32@1.4.0
+      selected-by: CMSIS Driver:USART
+      implements: CMSIS Driver:USART@2.4.0
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-Driver_STM32/1.4.0/Documentation/html/usart_stm32.html
+          category: doc
+          version: 3.0.0
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-Driver_STM32/1.4.0/Drivers/USART_STM32.c
+          category: source
+          version: 3.0.0
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-Driver_STM32/1.4.0/Drivers/USART_STM32.h
+          category: header
+          version: 3.0.0
+    - component: Keil::CMSIS Driver:VIO:Board@1.0.0
+      condition: STM32F429I-DISC1 GPIO
+      from-pack: Keil::STM32F429I-DISC1_BSP@1.1.0
+      selected-by: CMSIS Driver:VIO:Board
+      implements: CMSIS Driver:VIO@1.0.0
+      files:
+        - file: ${CMSIS_PACK_ROOT}/Keil/STM32F429I-DISC1_BSP/1.1.0/CMSIS/Driver/vio_STM32F429I-DISC1.c
+          category: source
+          version: 1.0.0
+    - component: Keil::Device:CubeMX@1.0.0
+      condition: STM32F4 CMSIS
+      from-pack: Keil::STM32F4xx_DFP@3.1.1
+      selected-by: Device:CubeMX
+      files:
+        - file: https://open-cmsis-pack.github.io/cmsis-toolbox/CubeMX
+          category: doc
+          version: 1.0.0
+      generator:
+        id: CubeMX
+        path: ../../../../STM32CubeMX/STM32F429I-DISC1/Blinky.cgen.yml
+  apis:
+    - api: CMSIS Driver:GPIO@1.0.0
+      from-pack: ARM::CMSIS@6.4.0
+      implemented-by: Keil::CMSIS Driver:GPIO@1.2.0
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Documentation/html/Driver/group__gpio__interface__gr.html
+          category: doc
+          version: 1.0.0
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Driver/Include/Driver_GPIO.h
+          category: header
+          version: 1.0.0
+    - api: CMSIS Driver:USART@2.4.0
+      from-pack: ARM::CMSIS@6.4.0
+      implemented-by: Keil::CMSIS Driver:USART@3.0.0
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Documentation/html/Driver/group__usart__interface__gr.html
+          category: doc
+          version: 2.4.0
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Driver/Include/Driver_USART.h
+          category: header
+          version: 2.4.0
+    - api: CMSIS Driver:VIO@1.0.0
+      from-pack: ARM::CMSIS@6.4.0
+      implemented-by: Keil::CMSIS Driver:VIO:Board@1.0.0
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Documentation/html/Driver/group__vio__interface__gr.html
+          category: doc
+          version: 1.0.0
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Driver/VIO/Include/cmsis_vio.h
+          category: header
+          version: 1.0.0
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Driver/VIO/cmsis_vio.scvd
+          category: other
+          version: 1.0.0
+    - api: CMSIS-Compiler:STDERR@1.1.0
+      condition: CortexDevice
+      from-pack: ARM::CMSIS-Compiler@2.3.0
+      implemented-by: ARM::CMSIS-Compiler:STDERR:Custom@1.1.0
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-Compiler/2.3.0/include/retarget_stderr.h
+          category: header
+          version: 1.1.0
+    - api: CMSIS-Compiler:STDIN@1.1.0
+      condition: CortexDevice
+      from-pack: ARM::CMSIS-Compiler@2.3.0
+      implemented-by: ARM::CMSIS-Compiler:STDIN:Custom@1.1.0
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-Compiler/2.3.0/include/retarget_stdin.h
+          category: header
+          version: 1.1.0
+    - api: CMSIS-Compiler:STDOUT@1.1.0
+      condition: CortexDevice
+      from-pack: ARM::CMSIS-Compiler@2.3.0
+      implemented-by: ARM::CMSIS-Compiler:STDOUT:Custom@1.1.0
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS-Compiler/2.3.0/include/retarget_stdout.h
+          category: header
+          version: 1.1.0
+    - api: CMSIS:OS Tick@1.0.1
+      from-pack: ARM::CMSIS@6.4.0
+      implemented-by: ARM::CMSIS:OS Tick:SysTick@1.0.5
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/RTOS2/Include/os_tick.h
+          category: header
+          version: 1.0.1
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Documentation/html/RTOS2/group__CMSIS__RTOS__TickAPI.html
+          category: doc
+          version: 1.0.1
+    - api: CMSIS:RTOS2@2.3.0
+      from-pack: ARM::CMSIS@6.4.0
+      implemented-by: ARM::CMSIS:RTOS2:Keil RTX5&Source@5.9.1
+      files:
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/Documentation/html/RTOS2/group__CMSIS__RTOS.html
+          category: doc
+          version: 2.3.0
+        - file: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.4.0/CMSIS/RTOS2/Include/cmsis_os2.h
+          category: header
+          version: 2.3.0
+  linker:
+    script: ../../../../RTE/Device/STM32F429ZITx/ac6_linker_script.sct.src
+    regions: ../../../../RTE/Device/STM32F429ZITx/regions_STM32F429I-DISC1.h
+  groups:
+    - group: Documentation
+      files:
+        - file: ../../../../README.md
+          category: doc
+    - group: Source Files
+      files:
+        - file: ../../../../Blinky.c
+          category: sourceC
+        - file: ../../../../retarget_stdio.c
+          category: sourceC
+          define:
+            - RETARGET_STDIO_UART: 1
+    - group: CubeMX
+      files:
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Src/main.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Src/stm32f4xx_it.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Src/stm32f4xx_hal_msp.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Src/stm32f4xx_hal_timebase_tim.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/MDK-ARM/startup_stm32f429xx.s
+          category: sourceAsm
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Src/system_stm32f4xx.c
+          category: sourceC
+    - group: STM32 HAL Driver
+      files:
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+          category: sourceC
+        - file: ../../../../STM32CubeMX/STM32F429I-DISC1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+          category: sourceC
+  constructed-files:
+    - file: ../../../../RTE/_Debug_STM32F429I-DISC1/RTE_Components.h
+      category: header
+  licenses:
+    - license: Apache-2.0
+      packs:
+        - pack: ARM::CMSIS-Compiler@2.3.0
+        - pack: ARM::CMSIS-Driver_STM32@1.4.0
+        - pack: ARM::CMSIS-RTX@5.9.1
+        - pack: ARM::CMSIS@6.4.0
+        - pack: Keil::STM32F429I-DISC1_BSP@1.1.0
+        - pack: Keil::STM32F4xx_DFP@3.1.1
+      components:
+        - component: ARM::CMSIS-Compiler:CORE@1.2.1
+        - component: ARM::CMSIS-Compiler:STDERR:Custom@1.1.0
+        - component: ARM::CMSIS-Compiler:STDIN:Custom@1.1.0
+        - component: ARM::CMSIS-Compiler:STDOUT:Custom@1.1.0
+        - component: ARM::CMSIS:CORE@6.4.0
+        - component: ARM::CMSIS:OS Tick:SysTick@1.0.5
+        - component: ARM::CMSIS:RTOS2:Keil RTX5&Source@5.9.1
+        - component: CMSIS Driver:GPIO(API)
+        - component: CMSIS Driver:USART(API)
+        - component: CMSIS Driver:VIO(API)
+        - component: CMSIS-Compiler:STDERR(API)
+        - component: CMSIS-Compiler:STDIN(API)
+        - component: CMSIS-Compiler:STDOUT(API)
+        - component: CMSIS:OS Tick(API)
+        - component: CMSIS:RTOS2(API)
+        - component: Keil::CMSIS Driver:GPIO@1.2.0
+        - component: Keil::CMSIS Driver:USART@3.0.0
+        - component: Keil::CMSIS Driver:VIO:Board@1.0.0
+        - component: Keil::Device:CubeMX@1.0.0
+    - license: BSD-3-Clause
+      packs:
+        - pack: Keil::STM32F429I-DISC1_BSP@1.1.0
+        - pack: Keil::STM32F4xx_DFP@3.1.1
+      components:
+        - component: Keil::CMSIS Driver:VIO:Board@1.0.0
+        - component: Keil::Device:CubeMX@1.0.0

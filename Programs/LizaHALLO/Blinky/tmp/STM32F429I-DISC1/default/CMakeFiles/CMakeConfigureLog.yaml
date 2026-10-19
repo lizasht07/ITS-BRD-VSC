@@ -1,0 +1,108 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/4.3.3/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/4.3.3/share/cmake-4.3/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "C:/Users/user/.vscode/extensions/arm.vscode-cmsis-debugger-1.8.0-win32-x64/tools/pyocd/"
+      - "C:/Users/user/.vscode/extensions/arm.cmsis-csolution-1.72.0-win32-x64/tools/cmsis-toolbox/bin/"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.15.0/bin/"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/4.3.3/bin/"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.ninja.build.ninja/1.13.2/"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.arm.mdk.toolbox/1.1.0/bin/"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/compilers.arm.armclang/6.24.0/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.1/bin/"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Users/user/.vscode/extensions/arm.vscode-cmsis-debugger-1.8.0-win32-x64/tools/pyocd/ninja-build.com"
+      - "C:/Users/user/.vscode/extensions/arm.vscode-cmsis-debugger-1.8.0-win32-x64/tools/pyocd/ninja-build.exe"
+      - "C:/Users/user/.vscode/extensions/arm.vscode-cmsis-debugger-1.8.0-win32-x64/tools/pyocd/ninja-build"
+      - "C:/Users/user/.vscode/extensions/arm.vscode-cmsis-debugger-1.8.0-win32-x64/tools/pyocd/ninja.com"
+      - "C:/Users/user/.vscode/extensions/arm.vscode-cmsis-debugger-1.8.0-win32-x64/tools/pyocd/ninja.exe"
+      - "C:/Users/user/.vscode/extensions/arm.vscode-cmsis-debugger-1.8.0-win32-x64/tools/pyocd/ninja"
+      - "C:/Users/user/.vscode/extensions/arm.vscode-cmsis-debugger-1.8.0-win32-x64/tools/pyocd/samu.com"
+      - "C:/Users/user/.vscode/extensions/arm.vscode-cmsis-debugger-1.8.0-win32-x64/tools/pyocd/samu.exe"
+      - "C:/Users/user/.vscode/extensions/arm.vscode-cmsis-debugger-1.8.0-win32-x64/tools/pyocd/samu"
+      - "C:/Users/user/.vscode/extensions/arm.cmsis-csolution-1.72.0-win32-x64/tools/cmsis-toolbox/bin/ninja-build.com"
+      - "C:/Users/user/.vscode/extensions/arm.cmsis-csolution-1.72.0-win32-x64/tools/cmsis-toolbox/bin/ninja-build.exe"
+      - "C:/Users/user/.vscode/extensions/arm.cmsis-csolution-1.72.0-win32-x64/tools/cmsis-toolbox/bin/ninja-build"
+      - "C:/Users/user/.vscode/extensions/arm.cmsis-csolution-1.72.0-win32-x64/tools/cmsis-toolbox/bin/ninja.com"
+      - "C:/Users/user/.vscode/extensions/arm.cmsis-csolution-1.72.0-win32-x64/tools/cmsis-toolbox/bin/ninja.exe"
+      - "C:/Users/user/.vscode/extensions/arm.cmsis-csolution-1.72.0-win32-x64/tools/cmsis-toolbox/bin/ninja"
+      - "C:/Users/user/.vscode/extensions/arm.cmsis-csolution-1.72.0-win32-x64/tools/cmsis-toolbox/bin/samu.com"
+      - "C:/Users/user/.vscode/extensions/arm.cmsis-csolution-1.72.0-win32-x64/tools/cmsis-toolbox/bin/samu.exe"
+      - "C:/Users/user/.vscode/extensions/arm.cmsis-csolution-1.72.0-win32-x64/tools/cmsis-toolbox/bin/samu"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.15.0/bin/ninja-build.com"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.15.0/bin/ninja-build.exe"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.15.0/bin/ninja-build"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.15.0/bin/ninja.com"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.15.0/bin/ninja.exe"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.15.0/bin/ninja"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.15.0/bin/samu.com"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.15.0/bin/samu.exe"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.15.0/bin/samu"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/4.3.3/bin/ninja-build.com"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/4.3.3/bin/ninja-build.exe"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/4.3.3/bin/ninja-build"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/4.3.3/bin/ninja.com"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/4.3.3/bin/ninja.exe"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/4.3.3/bin/ninja"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/4.3.3/bin/samu.com"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/4.3.3/bin/samu.exe"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/4.3.3/bin/samu"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.ninja.build.ninja/1.13.2/ninja-build.com"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.ninja.build.ninja/1.13.2/ninja-build.exe"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.ninja.build.ninja/1.13.2/ninja-build"
+      - "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.ninja.build.ninja/1.13.2/ninja.com"
+    found: "C:/Users/user/.vcpkg/artifacts/2139c4c6/tools.ninja.build.ninja/1.13.2/ninja.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\user\\.vscode\\extensions\\arm.vscode-cmsis-debugger-1.8.0-win32-x64\\tools\\pyocd"
+        - "c:\\Users\\user\\.vscode\\extensions\\arm.cmsis-csolution-1.72.0-win32-x64\\tools\\cmsis-toolbox\\bin"
+        - "c:\\Users\\user\\.vcpkg\\artifacts\\2139c4c6\\tools.open.cmsis.pack.cmsis.toolbox\\2.15.0\\bin"
+        - "c:\\Users\\user\\.vcpkg\\artifacts\\2139c4c6\\tools.kitware.cmake\\4.3.3\\bin"
+        - "c:\\Users\\user\\.vcpkg\\artifacts\\2139c4c6\\tools.ninja.build.ninja\\1.13.2"
+        - "c:\\Users\\user\\.vcpkg\\artifacts\\2139c4c6\\tools.arm.mdk.toolbox\\1.1.0\\bin"
+        - "c:\\Users\\user\\.vcpkg\\artifacts\\2139c4c6\\compilers.arm.armclang\\6.24.0\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.2.1\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+...

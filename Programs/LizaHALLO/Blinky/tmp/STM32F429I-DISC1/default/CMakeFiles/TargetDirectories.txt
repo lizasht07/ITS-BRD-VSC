@@ -1,0 +1,8 @@
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/CMakeFiles/database.dir
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/CMakeFiles/Blinky.Debug+STM32F429I-DISC1.dir
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/CMakeFiles/Blinky.Debug+STM32F429I-DISC1-build.dir
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/CMakeFiles/Blinky.Debug+STM32F429I-DISC1-configure.dir
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/CMakeFiles/Blinky.Debug+STM32F429I-DISC1-executes.dir
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/CMakeFiles/Blinky.Debug+STM32F429I-DISC1-database.dir
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/CMakeFiles/edit_cache.dir
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,9 @@
+{
+    "activeSolution": "../Blinky.csolution.yml",
+    "activeTarget": "STM32F429I-DISC1",
+    "targetSet": {
+        "Blinky": {
+            "activeTargetType": "STM32F429I-DISC1"
+        }
+    }
+}

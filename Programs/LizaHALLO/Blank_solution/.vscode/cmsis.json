@@ -1,0 +1,9 @@
+{
+    "activeSolution": "../Blank_solution.csolution.yml",
+    "activeTarget": "STM32F429ZITx",
+    "targetSet": {
+        "Blank_solution": {
+            "activeTargetType": "STM32F429ZITx"
+        }
+    }
+}

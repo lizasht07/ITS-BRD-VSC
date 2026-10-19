@@ -1,0 +1,16 @@
+# Target labels
+ Blinky.Debug+STM32F429I-DISC1
+# Source files and their labels
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/CMakeFiles/Blinky.Debug+STM32F429I-DISC1
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/CMakeFiles/Blinky.Debug+STM32F429I-DISC1.rule
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/CMakeFiles/Blinky.Debug+STM32F429I-DISC1-complete.rule
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-build.rule
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-configure.rule
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-database.rule
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-download.rule
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-executes.rule
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-install.rule
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-mkdir.rule
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-patch.rule
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-test.rule
+C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-update.rule

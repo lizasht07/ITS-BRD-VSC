@@ -1,0 +1,52 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/CMakeFiles/Blinky.Debug+STM32F429I-DISC1"
+		},
+		{
+			"file" : "C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/CMakeFiles/Blinky.Debug+STM32F429I-DISC1.rule"
+		},
+		{
+			"file" : "C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/CMakeFiles/Blinky.Debug+STM32F429I-DISC1-complete.rule"
+		},
+		{
+			"file" : "C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-build.rule"
+		},
+		{
+			"file" : "C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-configure.rule"
+		},
+		{
+			"file" : "C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-database.rule"
+		},
+		{
+			"file" : "C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-download.rule"
+		},
+		{
+			"file" : "C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-executes.rule"
+		},
+		{
+			"file" : "C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-install.rule"
+		},
+		{
+			"file" : "C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-patch.rule"
+		},
+		{
+			"file" : "C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-test.rule"
+		},
+		{
+			"file" : "C:/Users/user/Downloads/PortableGit/LizasProjekt/Programs/LizaHALLO/Blinky/tmp/STM32F429I-DISC1/default/Blinky.Debug+STM32F429I-DISC1/src/Blinky.Debug+STM32F429I-DISC1-stamp/Blinky.Debug+STM32F429I-DISC1-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Blinky.Debug+STM32F429I-DISC1"
+		],
+		"name" : "Blinky.Debug+STM32F429I-DISC1"
+	}
+}

@@ -1,0 +1,20 @@
+build-idx:
+  generated-by: csolution version 2.15.1+p3-gf46d68bf
+  target: STM32F429ZITx
+  cdefault: ${CMSIS_COMPILER_ROOT}/cdefault.yml
+  csolution: Blank_solution.csolution.yml
+  cbuild-run: out/Blank_solution+STM32F429ZITx.cbuild-run.yml
+  tmpdir: tmp/STM32F429ZITx/default
+  cprojects:
+    - cproject: Project/Project.cproject.yml
+  cbuilds:
+    - cbuild: out/Project/STM32F429ZITx/Debug/Project.Debug+STM32F429ZITx.cbuild.yml
+      project: Project
+      configuration: .Debug+STM32F429ZITx
+      messages:
+        errors:
+          - component 'Device:Startup' not found in included packs
+        info:
+          - Blank_solution.cbuild-pack.yml - file is already up-to-date
+          - Blank_solution+STM32F429ZITx.cbuild-run.yml - file generated successfully
+          - Project.Debug+STM32F429ZITx.cbuild.yml - file generated successfully
