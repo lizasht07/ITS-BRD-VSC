@@ -25,9 +25,9 @@ VariableB   DCW 0x1234
 main
     BL initITSboard             ; needed by the board to setup
 ;* swap memory - Is there another, at least optimized approach?
-    ldr     R0,=VariableA   ; Anw01
+    ldr     R0,=VariableA   ; Anw01 - 0x2000000c
     ldrb    R2,[R0]         ; Anw02
-    ldrb    R3,[R0,#1]      ; Anw03
+    ldrb    R3,[R0,#1]      ; Anw03 
     lsl     R2, #8          ; Anw04
     orr     R2, R3          ; Anw05
     strh    R2,[R0]         ; Anw06 
@@ -37,7 +37,7 @@ main
     strh    R5,[R0]         ; Anw08
     
 ;* Change value from x1234 to x4321
-    ldr     R1,=VariableB   ; Anw09
+    ldr     R1,=VariableB   ; Anw09                                                       
     ldrh    R6,[R1]         ; Anw0A
     mov     R7, #0x30ED     ; Anw0B
     add     R6, R6, R7      ; Anw0C
